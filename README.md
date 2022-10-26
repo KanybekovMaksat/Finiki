@@ -1,1 +1,1 @@
-http://finiki.github/
+https://kanybekovmaksat.github.io/Finiki/
