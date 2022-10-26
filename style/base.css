@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.eff:hover {
+    box-shadow: 0 0 10px 0 #fff inset, 0 0 10px 4px #D4C17F;
+}

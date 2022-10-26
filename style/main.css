@@ -1,0 +1,195 @@
+main{
+    background-color: #242B33;
+    padding-bottom: 180px;
+}
+
+
+/* section adHouse */
+.section-adHouse{
+    padding-top: 120px;
+}
+.adHouse-container{
+    max-width: 795px;
+    margin: 0 auto;
+}
+.adHouse-wrapper{
+    display: flex;
+}
+.adHouse-box{
+    display: flex;
+    flex-direction: column;
+}
+.adHouse-box__img{
+    height: 80px;
+}
+.adHouse-box__subtxt{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 55px;
+}
+
+
+
+/* section-appartments */
+.section-appartments{
+    margin-top: 120px;
+}
+/* .appatment-content{
+    display: flex;
+    flex-direction: column;
+} */
+.appartment-title__name{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    color: #D4C17F; 
+}
+.appartment-wrapper{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+.appartment-wrapper__box{
+    height: 320px;
+    background-image: url(../img/appartments-one.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: end;
+}
+.appartment-wrapper__box:nth-child(2){
+    background-image: url(../img/appartment-two.jpg);
+}
+.appartment-wrapper__box:nth-child(3){
+    background-image: url(../img/appartment-three.jpg);
+}
+.appartment-wrapper__box:last-child{
+    background-image: url(../img/appartment-four.jpg);
+}
+.appartment-wrapper__box a{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+
+.section-tour{
+    height: 560px;
+    background-image: url(../img/tour-intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tour-content{
+    padding-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tour-title{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+.tour-subtitle{
+    max-width: 525px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.tour-submit__btn{
+    width: 255px;
+    height: 50px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 900;
+    margin-left: 10px;
+    color: #fff; 
+    border-color:#D4C17F ;
+    box-shadow: 0 0 40px 40px grey inset, 0 0 0 0 grey;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+.tour-input__name,.tour-input__tel{
+    width: 255px;
+    height: 50px;
+    background: #FFFFFF;
+    opacity: 0.8;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 14px;
+    line-height: 27px;
+    color: #070707;
+}
+.tour-submit{
+    display: flex;
+    margin-top: 35px;
+}
+.tour-copy{
+    max-width: 250px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+}
+.tour-submit__btn{
+    opacity: 1;
+    background: #D4C17F;
+}
+.watch-content{
+    display: flex;
+    justify-content: center;
+}
+
+
+.section-geo{
+    margin-top: 180px;
+}
+.geo-title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;    
+    color: #D4C17F;
+}
+.geo-box:nth-child(2){
+    margin-top: 100px;
+}
+
+.section-question{
+    margin-top: 180px;
+}
+.question-title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-bottom: 50px;
+}
+.question-box:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
